@@ -1,0 +1,31 @@
+.video{
+   
+    
+    border-radius: 10px;
+    margin-top: 15px;
+    height: 260px;
+
+}
+
+.main{
+    width: 600px;
+    background-color: aliceblue;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+
+
+}
+
+div h3{
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.meta{
+    background-color: rgb(185, 82, 82);
+    border-radius: 5px;
+    padding: 3px
+}

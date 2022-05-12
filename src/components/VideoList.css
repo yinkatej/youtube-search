@@ -1,0 +1,31 @@
+.image{ 
+display: flex;
+padding: 5px;
+margin-bottom: 10px;
+margin-left: 10px;
+cursor: pointer;
+}
+img:hover{
+    transform: scale(1.2);
+}
+
+.image> img{
+    border-radius: 5px;
+    
+
+}
+
+p{
+    padding: 2px;
+    align-items: center;
+    background-color: none;
+    
+    
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
