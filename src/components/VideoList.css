@@ -4,6 +4,7 @@ padding: 5px;
 margin-bottom: 10px;
 margin-left: 10px;
 cursor: pointer;
+
 }
 img:hover{
     transform: scale(1.2);
@@ -26,6 +27,35 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Righteous', cursive;
     
 }
-
+.image:before {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 79% );
+    transform: translate3d(-69px, -24px, 0) scale(0.92);
+    filter: blur(32px);
+    opacity: var(0.7);
+    transition: opacity 0.3s;
+    border-radius: inherit;
+ }
+ 
+ 
+ .image::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: inherit;
+    border-radius: inherit;
+ }
+        

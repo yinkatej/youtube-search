@@ -35,17 +35,17 @@ class App extends React.Component{
                 </div>
 
                 <div className="video">
-                    <div className="video-scren">
+                    <div className="video-screen">
                         <Video  id = {this.state.selected} />
                     </div> 
                     <div className="video-list" >
-                    helo <VideoList  result={this.state.videoList}  selected={this.onSelected} />
+                    <VideoList  result={this.state.videoList}  selected={this.onSelected} />
                     </div>
                        
                     
                 </div>
-                
-            
+               
+              
             </div>
     );}
     

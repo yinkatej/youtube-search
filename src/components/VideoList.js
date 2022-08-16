@@ -17,7 +17,7 @@ const VideoList = (props) =>{
         <div key={id.videoId} onClick = {()=>{selected(id.videoId)}} className="image">
             <img src={img}  alt={img} />
             
-            <div className="text"><p> {snippet.title } </p></div>
+            <div className="text"><p> {(snippet.title).substring(0, 54)+ "..."} </p></div>
             
         </div>
 
